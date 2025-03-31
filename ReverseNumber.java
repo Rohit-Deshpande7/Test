@@ -12,12 +12,12 @@ public class ReverseNumber {
             reverse=reverse*10+num;
             n=n/10;
         }
-        System.out.println("The Reverse numebr is " +reverse);
+        System.out.println("The Reverse numeber is " +reverse);
     }
     public static void main(String[] args) {
         Scanner scanner= new Scanner(System.in);
         int n=scanner.nextInt();
-        System.out.println("The original numebr is " +n);
+        System.out.println("The original numeber is " +n);
         ReverseNum(n);
     }
 }

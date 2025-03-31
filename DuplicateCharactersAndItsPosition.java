@@ -19,7 +19,7 @@ public class DuplicateCharactersAndItsPosition {
             }
             if (count>1)
             {
-                System.out.println(sortedStr.charAt(i)+" Count is "+ count);
+                System.out.println(sortedStr.charAt(i)+" Count is "+ count+" at position "+i);
             }
         }
     }

@@ -12,7 +12,6 @@ public class ReverseLastWordofString {
             String word=strArray[i];
             for(int j=(strArray.length-1);j<=word.length();j++)
             {
-
                 ch=word.charAt(j);
                 reverse=ch+reverse;
             }
@@ -22,7 +21,7 @@ public class ReverseLastWordofString {
     }
 
     public static void main(String[] args) {
-        String str ="This is java program";
+        String str ="This is java";
         reverseLastWord(str);
     }
 }
